@@ -1,0 +1,9 @@
+*.class
+*.ctxt
+*#backup
+bin/
+doc/
+old/
+.project
+.settings
+.classpath
