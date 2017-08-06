@@ -10,12 +10,11 @@ and eventually fills the entire screen.  Closing/reopening
 the editor doesn't help, but *other* files can be edited OK.
 Restarting BlueJ clears the problem. 
 
-Platform: Ubuntu 16.04 LTS, with Oracle Java 1.8.0_121
+**Platform**: Ubuntu 16.04 LTS, with Oracle Java 1.8.0_121
 
-Log files: in directory [debug](debug) of this repository.
+**BlueJ Log files**: in directory [debug](debug) of this repository.
 
-* 31 Jul 2017: editor whiteout while editing the file `stepik/AdaptiveJava.java`. bluej-debuglog file in `debug` directory.
-
+* 31 Jul 2017: editor whiteout while editing the file [stepik/AdaptiveJava.java](stepik/AdaptiveJava.java). See debug/bluej-debuglog-20170731.txt.
 
 
 ## BlueJ Wishlist
