@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class AdaptiveJava
 {
     public static final Scanner console = new Scanner(System.in);
-    
+
     public static void star_figure(int size)
     {
         if (size==0) size = console.nextInt();
@@ -26,7 +26,14 @@ public class AdaptiveJava
             m[row][row] = '*';
             m[row][size-row-1] = '*';
         }
-           
+        // print it, leaving one space between elements
+        for(int row=0; row<size; row++) {
+            for(int c=0; c<size; c++) {
+                System.out.print(m[row][c]);
+                System.out.print(' ');
+            }
+            System.out.println();  // end of this row
+        }
     }
     
     public static void main(String[] args) {
