@@ -1,6 +1,9 @@
 import java.time.*;
 /**
  * An interface with Java 8 new features.
+ * In Java 8 interfaces can have:
+ * a) method code in "default" methods
+ * b) static methods with code
  */
 public interface MyInterface
 {

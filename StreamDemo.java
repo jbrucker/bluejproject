@@ -1,9 +1,12 @@
 import java.util.*;
 import java.util.function.*;
-
+/**
+ * Simple example of using streams to filter and process elements of a list.
+ */
 public class StreamDemo
 {
-    public static List<String> fruit = Arrays.asList("durian","orange","apple","banana",
+    public static List<String> fruit = 
+                Arrays.asList("durian","orange","apple","banana",
                         "guava","orange", "rambutan", "apple");   
        
     public static List<String> getFruit() { return Collections.unmodifiableList(fruit); }
