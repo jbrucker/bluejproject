@@ -5,14 +5,17 @@ to demo subject matter when teaching Java.
 
 Using BlueJ 4.10 I encounter intermittent problems with 
 the editor screen becoming whited out.  It starts with
-a few lines (at location where editing is taking place)
-and eventually fills the entire screen.  Closing/reopening
-the editor doesn't help, but *other* files can be edited OK.
+a few lines where an edit operation is taking place;
+typically typing over existing code or using paste.
+Eventually the white-out lines fill the entire editor window.  
+Closing/reopening the editor doesn't help, but *other* files can be edited OK.
 Restarting BlueJ clears the problem. 
 
 **Platform**: Ubuntu 16.04 LTS, with Oracle Java 1.8.0_121
 
-**BlueJ Log files**: in directory [debug](debug) of this repository.
+**BlueJ DebugLog files**: saved in directory [debug](debug) of this repository, with date appended to name.
+
+## Problem Occurrences
 
 * 31 Jul 2017: editor whiteout while editing the file [stepik/AdaptiveJava.java](stepik/AdaptiveJava.java). See debug/bluej-debuglog-20170731.txt.
 
