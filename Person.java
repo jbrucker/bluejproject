@@ -5,7 +5,7 @@
 public class Person
 {
     /* instance variables - replace the example below with your own*/
-    private String name;
+    x
 
     /**
      * Constructor for objects of class Person
